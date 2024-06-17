@@ -1,0 +1,177 @@
+  /* h1,h2{text-transform: uppercase;} */
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/* .sidebar{
+    position: static;
+    z-index: 1;
+} */
+
+li{
+    list-style: none;
+}
+
+.title{
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.underline{
+    text-decoration: underline;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar{
+    display: flex;
+    padding: 15px;
+    gap: 1rem;
+    background-color: #F2EAD3;
+}
+
+#top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #F5F5F5;
+}
+
+.first-icon{
+    position: absolute;
+    left: 400px;
+    height: 100px;
+}
+
+.second-icon{
+    position: absolute;
+    right: 500px;
+    top: 10px;
+    height: 100px;
+}
+
+.third-icon{
+    position: absolute;
+    height: 100px;
+}
+
+#bot-container{
+    margin: 100px 0;
+}
+
+.profile-img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.A{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr; 
+    width: 50%; 
+    margin: 100px auto 0 auto;
+    padding-bottom: 50px;
+}
+
+.B{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+}
+
+.contact-me h2{
+    text-transform: capitalize;
+}
+
+.contact-message {
+    width: 20%;
+    margin: 40px auto 60px;
+}
+
+.btn{
+    background-color: #F2EAD3;
+    background-image: linear-gradient(to bottom, #DFD7BF, #3F2305);
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* color: white; */
+}
+
+#footer{
+    padding: 50px 0 20px;
+    background-color: #3F2305;
+}
+
+.footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    margin:  10px 20px;
+    color:#DFD7BF;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+
+}
+.img{
+    
+} */
